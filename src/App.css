@@ -1,31 +1,50 @@
-.App {
-  text-align: center;
+.app {
+  background-color: #fff; /* Default light theme background color */
+  color: #000000; /* Default light theme text color */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app.dark {
+  background-color: #000000; /* Dark theme background color */
+  color: #fff; /* Dark theme text color */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  background-color: #63707e; /* Navbar background color */
+  color: #fff; /* Navbar text color */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav li {
+  margin-right: 20px;
+  cursor: pointer;
 }
 
-.heart {
-  color: #ff0000;
+footer {
+  background-color: #63707e; /* Footer background color */
+  color: #fff; /* Footer text color */
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-.small {
-  font-size: 0.75rem;
+.content {
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #63707e; /* Default button color */
+  color: #fff; /* Default button text color */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #63707e; /* Button color on hover */
 }
